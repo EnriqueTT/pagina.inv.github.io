@@ -35,8 +35,7 @@ a {
   color: white;
   background:
     linear-gradient(180deg, rgba(23, 29, 22, 0.18), rgba(23, 29, 22, 0.52)),
-    url("https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2200&q=85")
-      center/cover;
+    url("") center/cover;
 }
 .hero:after {
   content: "";
