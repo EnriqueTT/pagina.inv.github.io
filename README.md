@@ -1,3 +1,3 @@
 #Link de pag
 
-git@github.com:EnriqueTT/pagina.inv.github.io.git
+https://enriquett.github.io/pagina.inv.github.io/
