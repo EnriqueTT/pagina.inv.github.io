@@ -35,7 +35,8 @@ a {
   color: white;
   background:
     linear-gradient(180deg, rgba(23, 29, 22, 0.18), rgba(23, 29, 22, 0.52)),
-    url("") center/cover;
+    url("https://practicum-content.s3.us-west-1.amazonaws.com/frontend-developer/common/avatar.jpg")
+      center/cover;
 }
 .hero:after {
   content: "";
