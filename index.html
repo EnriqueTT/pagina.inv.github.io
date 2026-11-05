@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f3ed" />
+    <title>Regina & César — Nos casamos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Música de fondo -->
+    <audio id="wedding-music" loop>
+      <source
+        src="https://www.youtube.com/watch?v=Dv6Th7kJ64Q&list=RDDv6Th7kJ64Q&start_radio=1"
+        type="link"
+      />
+      Tu navegador no soporta audio HTML5.
+    </audio>
+
+    <button id="music-toggle" class="music-button" type="button">
+      ♫ Activar música
+    </button>
+    <header class="hero" id="inicio">
+      <div class="hero__content">
+        <div class="hero__eyebrow">Con la bendición de nuestras familias</div>
+        <p
+          class="text--serif"
+          style="font-size: 1.6rem; font-style: italic; margin: 24px 0 0"
+        >
+          Nos casamos
+        </p>
+        <h1 class="text--serif">
+          Regina <span class="hero__amp">&</span><br />César
+        </h1>
+        <div class="hero__date">26 · Junio · 2027</div>
+      </div>
+      <div class="hero__scroll-note">Una historia que continúa · Desliza</div>
+    </header>
+
+    <section class="section countdown">
+      <div class="section__inner">
+        <div class="section__eyebrow">Cada vez falta menos</div>
+        <h2>La cuenta regresiva</h2>
+        <p class="section__intro">
+          Estamos contando los días para celebrar este momento tan especial
+          contigo.
+        </p>
+        <div class="countdown__grid" aria-live="polite">
+          <div class="countdown__unit">
+            <strong id="days">000</strong><span>Días</span>
+          </div>
+          <div class="countdown__unit">
+            <strong id="hours">00</strong><span>Horas</span>
+          </div>
+          <div class="countdown__unit">
+            <strong id="minutes">00</strong><span>Minutos</span>
+          </div>
+          <div class="countdown__unit">
+            <strong id="seconds">00</strong><span>Segundos</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="invitation">
+      <div
+        class="invitation__photo"
+        role="img"
+        aria-label="Fotografía romántica de boda"
+      ></div>
+      <div class="invitation__content">
+        <div class="section__eyebrow">¡Estás invitado!</div>
+        <h2 class="text--serif">El amor se celebra mejor contigo.</h2>
+        <p>
+          Hay momentos que se vuelven inolvidables cuando los compartimos con
+          las personas que queremos. Nos encantaría que nos acompañaras a
+          celebrar el comienzo de nuestra nueva aventura.
+        </p>
+        <p>
+          Guarda la fecha y prepárate para un día lleno de amor, alegría y
+          recuerdos.
+        </p>
+        <div class="invitation__signature">Regina & César</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section__inner">
+        <div class="section__eyebrow">26 de junio de 2027</div>
+        <h2 class="text--serif">Itinerario</h2>
+        <p class="section__intro">
+          Estos son los momentos que compartiremos. Los horarios son editables
+          para que agregues los definitivos.
+        </p>
+        <div class="itinerary">
+          <article class="itinerary__item">
+            <div class="itinerary__illustration">
+              <img
+                src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=300&q=80"
+                alt="Recepción con mesas preparadas"
+              />
+            </div>
+            <div class="itinerary__node"></div>
+            <div class="itinerary__content">
+              <div class="itinerary__time">4:30 PM</div>
+              <h3>Recepción</h3>
+              <p>Bienvenida y llegada de nuestros invitados.</p>
+            </div>
+          </article>
+          <article class="itinerary__item">
+            <div class="itinerary__illustration">
+              <img
+                src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=300&q=80"
+                alt="Ceremonia de boda"
+              />
+            </div>
+            <div class="itinerary__node"></div>
+            <div class="itinerary__content">
+              <div class="itinerary__time">5:00 PM</div>
+              <h3>Ceremonia</h3>
+              <p>
+                El momento en que diremos “sí” y comenzaremos nuestro para
+                siempre.
+              </p>
+            </div>
+          </article>
+          <article class="itinerary__item">
+            <div class="itinerary__illustration">
+              <img
+                src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=300&q=80"
+                alt="Mesa de cena elegante"
+              />
+            </div>
+            <div class="itinerary__node"></div>
+            <div class="itinerary__content">
+              <div class="itinerary__time">6:30 PM</div>
+              <h3>Cena</h3>
+              <p>
+                Compartiremos una deliciosa cena y brindaremos por nuestro amor.
+              </p>
+            </div>
+          </article>
+          <article class="itinerary__item">
+            <div class="itinerary__illustration">
+              <img
+                src="https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=300&q=80"
+                alt="Celebración y música"
+              />
+            </div>
+            <div class="itinerary__node"></div>
+            <div class="itinerary__content">
+              <div class="itinerary__time">8:00 PM</div>
+              <h3>Fiesta</h3>
+              <p>¡A bailar, celebrar y crear recuerdos inolvidables!</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section location">
+      <div class="section__inner">
+        <div class="section__eyebrow">Nos encontramos aquí</div>
+        <h2 class="text--serif">Ubicación</h2>
+        <p class="section__intro">
+          Nos encantará compartir este día contigo. Consulta la ruta con
+          anticipación para llegar sin prisas.
+        </p>
+        <div class="location__list">
+          <div class="location__card">
+            <h3 class="text--serif">La celebración</h3>
+            <p>
+              <strong>Nombre del lugar por confirmar</strong><br />Agrega aquí
+              la dirección completa del evento.
+            </p>
+            <a
+              class="button"
+              target="_blank"
+              rel="noopener"
+              href="https://www.google.com/maps/search/?api=1&query=salones+para+bodas+Ciudad+de+Mexico"
+              >Abrir en Google Maps</a
+            >
+          </div>
+          <div class="location__card">
+            <h3 class="text--serif">Hospedaje sugerido</h3>
+            <p>
+              <strong>Hotel por confirmar</strong><br />Una opción para
+              descansar después de celebrar. Reemplaza este texto por el hotel
+              recomendado.
+            </p>
+            <a
+              class="button button--outline"
+              target="_blank"
+              rel="noopener"
+              href="https://www.google.com/maps/search/?api=1&query=hoteles+Ciudad+de+Mexico"
+              >Ver hoteles en Maps</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dress-code">
+      <div class="section__inner">
+        <div class="section__eyebrow">El toque especial</div>
+        <h2 class="text--serif">Código de vestimenta</h2>
+        <p class="section__intro">
+          Formal / etiqueta. Vístete para una ocasión especial y elige algo con
+          lo que te sientas increíble.
+        </p>
+        <div class="dress-code__label">✦ Formal · Elegante</div>
+        <div class="dress-code__palette" aria-label="Paleta de inspiración">
+          <span class="dress-code__swatch" style="background: #527493"></span
+          ><span class="dress-code__swatch" style="background: #a9c4da"></span
+          ><span class="dress-code__swatch" style="background: #e4edf5"></span
+          ><span class="dress-code__swatch" style="background: #c0d3e2"></span>
+        </div>
+        <p class="section__intro" style="font-size: 0.78rem">
+          Sugerencia: evita el blanco y los tonos reservados para los novios.
+        </p>
+      </div>
+    </section>
+
+    <section class="section calendar">
+      <div class="section__inner">
+        <div class="section__eyebrow">Aparta la fecha</div>
+        <h2 class="text--serif">Guárdalo en tu calendario</h2>
+        <p class="section__intro">
+          Agrega nuestra boda a tu calendario para que no se te pase este día
+          tan importante.
+        </p>
+        <button class="button" id="calendarBtn">Añadir al calendario</button>
+      </div>
+    </section>
+
+    <section class="section rsvp" id="rsvp">
+      <div class="section__inner">
+        <div class="section__eyebrow">Tu presencia es nuestro mejor regalo</div>
+        <h2 class="text--serif">¿Nos acompañas?</h2>
+        <p class="section__intro">
+          Por favor, confirma tu asistencia. Puedes registrar hasta 4 personas
+          por invitación.
+        </p>
+        <form class="rsvp__form" id="rsvpForm">
+          <label>Invitación personalizada</label>
+          <div class="rsvp__invite-name" id="randomGuestName">
+            Familia Martínez
+          </div>
+          <p class="rsvp__note">
+            Esta invitación está personalizada para ti. Solo indica cuántas
+            personas asistirán.
+          </p>
+          <label>Número de asistentes (máximo 4)</label>
+          <div class="guest-stepper">
+            <button
+              type="button"
+              id="minusGuest"
+              aria-label="Reducir invitados"
+            >
+              −</button
+            ><output id="guestCountDisplay" aria-live="polite">1</output
+            ><button
+              type="button"
+              id="plusGuest"
+              aria-label="Aumentar invitados"
+            >
+              +
+            </button>
+          </div>
+          <input type="hidden" id="guestCount" name="guestCount" value="1" />
+          <label>Tu respuesta</label>
+          <div class="rsvp__choices">
+            <button
+              type="button"
+              data-choice="yes"
+              class="rsvp__choice--active"
+            >
+              Asistiré</button
+            ><button type="button" data-choice="no">No asistiré</button>
+          </div>
+          <button class="button" type="submit">Confirmar respuesta</button>
+          <div class="rsvp__notice" id="formNotice" role="status"></div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="footer__names">Regina & César</div>
+      <p>26 · Junio · 2027 · Con amor, para siempre</p>
+    </footer>
+
+    <section class="section gifts" id="mesa-regalos">
+      <div class="section__inner">
+        <div class="section__eyebrow">Un detalle con cariño</div>
+        <h2 class="text--serif">Mesa de regalos</h2>
+        <p class="section__intro">
+          Tu compañía es nuestro mejor regalo. Si deseas tener un detalle con
+          nosotros, aquí encontrarás algunas opciones.
+        </p>
+        <div class="gifts__options">
+          <a
+            class="gifts__option"
+            href="https://www.netflix.com/watch/70133298?trackId=264293154&tctx=1%2C1%2C4b6f6d2f-ff14-4f23-94e1-0f46cd5701fd-8049217%2CeyJwYWdlSWQiOiJQU19iZWM5NjFhZC0wYzg3LTRmN2YtYmRiYy02ODRhMThkMGRkOWRfTDFfTjIiLCJzZWN0aW9uSWQiOiIyMTM4ZjMzYS02ZjM3LTRmZmItYTdlOC00NWYzZmU0YzY3YjkiLCJpZHgiOi05OTl9%2CPS_bec961ad-0c87-4f7f-bdbc-684a18d0dd9d_L1_N2%2C%2C%2C%2C%2CVideo%3A70136123%2CminiDpPlayButton%2C"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="gifts__icon" aria-hidden="true">♡</span>
+            <span class="gifts__copy"
+              ><strong>Sears y Liverpool</strong
+              ><small>Ver opciones de regalo</small></span
+            >
+            <span class="gifts__arrow" aria-hidden="true">↗</span>
+          </a>
+          <a
+            class="gifts__option"
+            href="https://www.amazon.com.mx/"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="gifts__icon" aria-hidden="true">♡</span>
+            <span class="gifts__copy"
+              ><strong>Amazon</strong
+              ><small>Explorar regalos en línea</small></span
+            >
+            <span class="gifts__arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="gifts__option gifts__option--cash">
+            <span class="gifts__icon" aria-hidden="true">♡</span>
+            <span class="gifts__copy"
+              ><strong>Efectivo</strong
+              ><small>Un sobre el día de la celebración</small></span
+            >
+            <span class="gifts__arrow" aria-hidden="true">✧</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
