@@ -35,7 +35,7 @@ a {
   color: white;
   background:
     linear-gradient(180deg, rgba(23, 29, 22, 0.18), rgba(23, 29, 22, 0.52)),
-    url("https://practicum-content.s3.us-west-1.amazonaws.com/frontend-developer/common/avatar.jpg")
+    url("https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2200&q=85")
       center/cover;
 }
 .hero:after {
@@ -296,6 +296,11 @@ a {
   line-height: 1.7;
   margin: 0 0 14px;
 }
+
+.hospedaje {
+  background: #dce9f4;
+}
+
 .location {
   background: #e5eef6;
 }
@@ -346,6 +351,13 @@ a {
 .dress-code {
   background: var(--paper);
 }
+
+.dress-code__picture {
+  height: 10%;
+  display: block;
+  margin: auto;
+}
+
 .dress-code__label {
   display: inline-flex;
   align-items: center;
